@@ -23,7 +23,7 @@ public class Cotroller {
         model.addAttribute("TotalReportedCases",totalReportedCases);
         model.addAttribute("TotalNewCases",totalNewCases);
 
-        return "Home";
+        return "Index";
     }
 
 }
